@@ -29,7 +29,7 @@ function App() {
             </nav>
             <header>
                 <h1>Fruit Perfection</h1>
-                <button>Shop nu</button>
+                <button type="button" onClick={() => console.log("Jij wilt shoppen!")}>Shop nu</button>
             </header>
             <main>
                 <article className="product">
